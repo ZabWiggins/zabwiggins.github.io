@@ -13,7 +13,6 @@ hr {
   width: 100;
   height: 5px;
   background-color: #a9665d;
-  position: relative;
 }
 #bio {
   text-align: center;
@@ -34,11 +33,24 @@ hr {
   color: #a9665d;
 }
 #pic {
-  width: 150px;
+  padding-top: 0px;
+  padding-left: 25px;
+  padding-right: 0px;
   height: 200px;
+  width: 150px;
   float: left;
   position: relative;
 }
 #about {
-  padding-bottom: 50px;
+  padding-bottom: 7%;
+  position: relative;
+  width: 85%;
+}
+#demo {
+  text-align: center;
+}
+#bio {
+  padding-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 0px;
 }
